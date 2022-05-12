@@ -1,0 +1,22 @@
+body
+{background-color: black;}
+.infobox
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+    #photos
+    {
+        display: flex;
+        justify-content: flex-start;
+        width: 90em; 
+        height: 50em;
+        
+        img{
+            height: 40%;
+            width: 40%;
+            margin-left: 2em;
+        }
+    }
+}
