@@ -1,20 +1,87 @@
 body {
-  background-color: black;
+  color: #6f8ba4;
+  margin-top: 20px;
 }
 
-.infobox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.section {
+  padding: 100px 0;
+  position: relative;
 }
-.infobox #photos {
-  display: flex;
-  justify-content: flex-start;
-  width: 90em;
-  height: 50em;
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: none;
 }
-.infobox #photos img {
-  height: 40%;
-  width: 40%;
-  margin-left: 2em;
+
+.theme-color {
+  color: #fc5356;
+}
+
+.dark-color {
+  color: #20247b;
+}
+
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+.about-text p {
+  font-size: 18px;
+  max-width: 450px;
+}
+@media (min-width: 767px) {
+  .about-text .about-text {
+    font-size: 18px;
+  }
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding-top: 5px 0;
+}
+.about-list label {
+  color: #936492;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 911px) {
+  .michael-photo {
+    margin-top: 30px;
+  }
+}
+.about-section .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-section .counter .count {
+  font-weight: 700;
+  color: #20247b;
+  margin: 0 0 5px;
+}
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0;
 }/*# sourceMappingURL=styles.css.map */

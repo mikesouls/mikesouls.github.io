@@ -1,22 +1,114 @@
 body
-{background-color: black;}
-.infobox
 {
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
+color: #6f8ba4;
+margin-top: 20px;
+}
+.section
+{
+    padding: 100px 0;
+    position: relative;
+}
+img
+{
+    max-width: 100%;
+    vertical-align: middle;
+    border: none;
+}
+.theme-color{
+    color: #fc5356;
+}
+.dark-color{
+    color: #20247b;
+}
 
-    #photos
+.about-text
+{
+    h3{
+      font-size: 45px; 
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+
+    p{
+        font-size: 18px;
+        max-width: 450px;
+    }
+
+    @media (min-width: 767px)
     {
-        display: flex;
-        justify-content: flex-start;
-        width: 90em; 
-        height: 50em;
-        
-        img{
-            height: 40%;
-            width: 40%;
-            margin-left: 2em;
+        .about-text
+        {
+            font-size: 18px;
+        }
+    }
+}
+
+.about-list
+{
+    padding-top: 10px;
+
+    .media
+    {
+        padding-top: 5px 0;
+    }
+
+    label{
+        color: #936492;
+        font-weight: 600;
+        width: 88px;
+        margin: 0;
+        position: relative;
+    }
+
+    label:after
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 11px;
+        width: 1px;
+        height: 12px;
+        background: #20247b;
+        -moz-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+        margin: auto;
+        opacity: 0.5;
+    }
+    p{
+        margin: 0;
+        font-size:15px;
+    }
+}
+
+@media(max-width: 911px)
+{
+    .michael-photo
+    {
+        margin-top: 30px;
+    }
+}
+
+.about-section
+{
+    .counter
+    {
+        .count-data
+        {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        .count
+        {
+            font-weight: 700;
+            color: #20247b;
+            margin: 0 0 5px;
+        }
+        p{
+            font-weight: 600;
+            margin: 0;
         }
     }
 }
