@@ -1,10 +1,19 @@
+// for each main element
 body
 {
 color: #6f8ba4;
 margin-top: 20px;
 }
-.section
+.first-section
 {
+    padding: 100px 0;
+    position: relative;
+}
+.second-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 100px 0;
     position: relative;
 }
@@ -21,6 +30,7 @@ img
     color: #20247b;
 }
 
+// About me section
 .about-text
 {
     h3{
@@ -55,7 +65,7 @@ img
     label{
         color: #936492;
         font-weight: 600;
-        width: 88px;
+        width: 150px;
         margin: 0;
         position: relative;
     }
